@@ -1,0 +1,57 @@
+#timeDisplay {
+    display: inline-block;
+    font-size: 1.50rem;
+}
+
+.content {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.highscores {
+    line-height: 3;
+}
+
+.higher {
+    text-align: initial;
+}
+
+.intro {
+    padding: 1%;
+    display: inline-block;
+    width: 60%;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(128, 40, 211);
+    border-color: rgb(128, 40, 211);
+    display: inline-block;
+    margin: 1%;
+}
+
+ .left {
+text-align: left;
+
+}
+.quiz.btn {
+margin-left: 25%;
+}
+
+.quiz {
+    display: none;
+}
+
+#feedback {
+margin-left: 25%;
+color: #bbbbbb;
+font-style: italic;
+}
+
+hr {
+    width: 50%;
+    padding: 1% auto;
+}
