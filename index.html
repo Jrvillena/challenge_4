@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <script src = "./script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+  
 </head>
 <body>
     <!-- Header -->
-        <!-- Link to High Score -->
-        <!-- Time Countdown -->
+    <header class="header">
+        <!-- Timer --> 
+        
+        <p id="highScore" class="header-h2">High Scores</p>
+         <!-- Link to High Score -->
+
+    </header>
+       
 
     <!-- Start Button -->
 
-    <button id="start">Start</button>
+    <div id="welcome" class="welcome box">
+        <p>Welcome to the Javascript Quiz!</p> 
+        <p>Your score will be based on answering the question correctly and how quickly you answer. For every question you answer correctly, you will be awarded 10 seconds. If you answer incorrectly you will lose 15 seconds. Press "start" when you are ready. Good luck!</p>
+    </div>
 
-    <!-- Quiz Layout -->
+    <button id="startBtn" class="start-button">Start</button>
 
-    <!-- High Score Layout -->
-
+    
+    
 </body>
-</html> 
+</html>
