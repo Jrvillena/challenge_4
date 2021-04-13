@@ -80,10 +80,10 @@ document.getElementById("nextButton").addEventListener("click", function(){
 
 function checkAnswer(answer){
     if (answer === questionArr[i].correct) {
-         timeLeft +=10;
+        timeLeft +=10;
     } if (answer !== questionArr[i].correct){
-        // decrease 15 seconds of time
-        timeLeft -=15;
+// decrease 15 seconds of time
+    timeLeft -=15;
     } 
 }
 
@@ -115,8 +115,8 @@ var div = document.createElement("div");
 
 function storeScore(event) {
     leaders[leaders.length] = {
-        names: scoreInput.value,
-        savedScores: timeLeft
+    names: scoreInput.value,
+    savedScores: timeLeft
     }
 }        
 
