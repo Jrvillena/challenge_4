@@ -31,13 +31,13 @@ body{
 .box{
     background-color:white;
     width: 50%;
-    border: 5px black; 
+    border: 5px rgb(78, 10, 105); 
     padding: 50px;
     margin: auto;
     margin-top: 100px;
     display: block;
     justify-content: center;
-    box-shadow: 1px 1px 5px gray;
+    box-shadow: 1px 1px 5px rgb(187, 100, 216);
 }
 
 button{
