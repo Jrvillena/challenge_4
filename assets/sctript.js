@@ -46,8 +46,10 @@ init();
 function init(){
     leaderScore.style.display = "none";
     quizBox.style.display = "none";
-//     Parsing the JSON string to an object
+
+// Parsing the JSON string to an object
 var lastUser = JSON.parse(localStorage.getItem("leaderHighScore"));
+
 // If todos were retrieved from localStorage, update the array 
     if (lastUser !== null) {
       leaders = lastUser;
